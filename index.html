@@ -1,2 +1,61 @@
 
-wellcome my computer world
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="utf-8" /> 
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" /> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+    <title>Sourabhalder.github,.io</title> 
+    <style> 
+        #loader { 
+            border: 120px solid #f3f3f3; 
+            border-radius: 50%; 
+            border-top: 120px solid #444444; 
+            width: 70px; 
+            height: 70px; 
+            animation: spin 1s linear infinite; 
+        } 
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            }   } 
+        .center { 
+            position: absolute; 
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <div id="loader" class="center"></div> 
+
+    <h1>Wellcome to Sourabhalder</h1> 
+    <h2>A Websites Developer computer portal for contack now</h2> <a href="http://sourabhalder.eu.org">Click Now</a>
+
+   <h6> <img src="https://i.imgur.com/KsQJA8I.png"
+         alt="loding......" /> <h6>
+         
+         
+         
+
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                  "#loader").style.display = "none"; 
+                document.querySelector( 
+                  "body").style.visibility = "visible"; 
+        }  }; 
+    </script> 
+</body> 
+</html>
+
